@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         let location = CLLocation(latitude: 40.7362553, longitude: -73.9925026)
         
-        BPWeatherClient.getForecast(location) { (success) in
+        BPWeatherClient.getForecast(location: location) { (success) in
             
         }
         // Do any additional setup after loading the view.

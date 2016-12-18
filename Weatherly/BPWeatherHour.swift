@@ -8,9 +8,9 @@
 
 import UIKit
 
-class BPLocationHour: NSObject {
+class BPWeatherHour: NSObject {
     
-    let timeStamp: Date
+    let timeStamp: NSDate
     let temperature: CGFloat
     let iconName: String
     
@@ -24,7 +24,7 @@ class BPLocationHour: NSObject {
                 return nil
         }
         
-        self.timeStamp = Date(timeIntervalSince1970: time)
+        self.timeStamp = NSDate(timeIntervalSince1970: time)
         self.iconName = iconName
         self.temperature = temperature
     }

@@ -12,26 +12,26 @@ import Alamofire
 
 class BPWeatherClient {
     
-    class func getForecast(location: CLLocation, completion: () -> (BPLocation?)) {
+    class func getForecast(location: CLLocation, completion: @escaping (_ forecast: BPForecast?) -> Void) {
         
         let latitude = location.coordinate.latitude
         let longitude = location.coordinate.longitude
         
         let path = String(format: kAPIWeatherForecast, kAPIKey, latitude, longitude)
         
-        Alamofire.request(.GET, path).validate().responseJSON { (response) in
+        Alamofire.request(path, method: .get).validate().responseJSON { (response) in
             
             switch response.result {
                 
-            case .Success:
+            case .success:
                 
-                if let json = response.result.value as? NSDictionary, let location = BPLocation(json: json) {
+                if let json = response.result.value as? NSDictionary, let location = BPForecast(json: json) {
                     completion(location)
                 } else {
                     completion(nil)
                 }
                 
-            case .Failure(let error):
+            case .failure(let error):
                 print(error)
             }
         }

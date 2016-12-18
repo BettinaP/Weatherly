@@ -8,23 +8,22 @@
 
 import UIKit
 
-extension NSDate {
+extension Date {
 
     func dayOfWeekString() -> String {
         
-        let dateformatter  = NSDateFormatter()
+        let dateformatter  = DateFormatter()
         dateformatter.dateFormat = "EEEE"
         
-        return dateformatter.stringFromDate(self)
+        return dateformatter.string(from: self)
     }
     
     func hourWithoutMinutesString() -> String {
         
-        let dateFormatter = NSDateFormatter()
-        dateFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeStyle = DateFormatter.Style.short
         dateFormatter.dateFormat = "h a"
-        dateFormatter.timeZone = NSTimeZone()
         
-        return dateFormatter.stringFromDate(self)
+        return dateFormatter.string(from: self)
     }
 }

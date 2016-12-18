@@ -8,17 +8,17 @@
 
 import UIKit
 
-class BPLocation {
+class BPWeather {
     
-    let current: BPLocationCurrent?
-    let hourly: BPLocationHourly?
-    let daily: BPLocationDaily?
+    let current: BPWeatherCurrent?
+    let hourly: BPWeatherHourly?
+    let daily: BPWeatherDaily?
     
     init?(json: NSDictionary) {
         
-        current = BPLocationCurrent()
-        hourly = BPLocationHourly(json: json)
-        daily = BPLocationDaily()
+        current = BPWeatherCurrent()
+        hourly = BPWeatherHourly(json: json)
+        daily = BPWeatherDaily(json: json)
         
         if current == nil || hourly == nil || daily == nil {
             return nil
