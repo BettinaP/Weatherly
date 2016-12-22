@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0650D6F0D93D877048480A0C /* Pods_Weatherly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C3435461080EAB3B2343C5 /* Pods_Weatherly.framework */; };
+		DE4894561E0B488A002F8CC4 /* BPLocationDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4894551E0B488A002F8CC4 /* BPLocationDay.swift */; };
+		DE4894581E0B48C6002F8CC4 /* BPLocationDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4894571E0B48C6002F8CC4 /* BPLocationDaily.swift */; };
 		DE4D940B1DDE300200B5050A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D940A1DDE300200B5050A /* AppDelegate.swift */; };
 		DE4D94131DDE300200B5050A /* Weatherly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE4D94111DDE300200B5050A /* Weatherly.xcdatamodeld */; };
 		DE4D94151DDE300200B5050A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4D94141DDE300200B5050A /* Assets.xcassets */; };
@@ -18,7 +20,6 @@
 		DE4D942C1DDE35EB00B5050A /* BPForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D942B1DDE35EB00B5050A /* BPForecast.swift */; };
 		DE4D942E1DDE360000B5050A /* BPLocationCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D942D1DDE360000B5050A /* BPLocationCurrent.swift */; };
 		DE4D94301DDE360B00B5050A /* BPLocationHourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D942F1DDE360B00B5050A /* BPLocationHourly.swift */; };
-		DE4D94321DDE361700B5050A /* BPLocationDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D94311DDE361700B5050A /* BPLocationDaily.swift */; };
 		DE4D94341DDE364700B5050A /* BPLocationHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D94331DDE364700B5050A /* BPLocationHour.swift */; };
 		DE4D94361DDE3C6400B5050A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D94351DDE3C6400B5050A /* Storyboard.storyboard */; };
 		DE4D94381DDE3CB000B5050A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D94371DDE3CB000B5050A /* ViewController.swift */; };
@@ -28,6 +29,8 @@
 		09C3435461080EAB3B2343C5 /* Pods_Weatherly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weatherly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		507AFC78A7C960AEEAA325A2 /* Pods-Weatherly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherly/Pods-Weatherly.debug.xcconfig"; sourceTree = "<group>"; };
 		5A23A85433AC65B988ECF0B8 /* Pods-Weatherly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weatherly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weatherly/Pods-Weatherly.release.xcconfig"; sourceTree = "<group>"; };
+		DE4894551E0B488A002F8CC4 /* BPLocationDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationDay.swift; sourceTree = "<group>"; };
+		DE4894571E0B48C6002F8CC4 /* BPLocationDaily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationDaily.swift; sourceTree = "<group>"; };
 		DE4D94071DDE300200B5050A /* Weatherly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4D940A1DDE300200B5050A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4D94121DDE300200B5050A /* Weatherly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weatherly.xcdatamodel; sourceTree = "<group>"; };
@@ -40,7 +43,6 @@
 		DE4D942B1DDE35EB00B5050A /* BPForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPForecast.swift; sourceTree = "<group>"; };
 		DE4D942D1DDE360000B5050A /* BPLocationCurrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationCurrent.swift; sourceTree = "<group>"; };
 		DE4D942F1DDE360B00B5050A /* BPLocationHourly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationHourly.swift; sourceTree = "<group>"; };
-		DE4D94311DDE361700B5050A /* BPLocationDaily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationDaily.swift; sourceTree = "<group>"; };
 		DE4D94331DDE364700B5050A /* BPLocationHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationHour.swift; sourceTree = "<group>"; };
 		DE4D94351DDE3C6400B5050A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		DE4D94371DDE3CB000B5050A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,7 +160,8 @@
 				DE4D942D1DDE360000B5050A /* BPLocationCurrent.swift */,
 				DE4D942F1DDE360B00B5050A /* BPLocationHourly.swift */,
 				DE4D94331DDE364700B5050A /* BPLocationHour.swift */,
-				DE4D94311DDE361700B5050A /* BPLocationDaily.swift */,
+				DE4894571E0B48C6002F8CC4 /* BPLocationDaily.swift */,
+				DE4894551E0B488A002F8CC4 /* BPLocationDay.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -287,8 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4D94131DDE300200B5050A /* Weatherly.xcdatamodeld in Sources */,
-				DE4D94321DDE361700B5050A /* BPLocationDaily.swift in Sources */,
 				DE4D94291DDE348700B5050A /* NSDate+Utilities.swift in Sources */,
+				DE4894561E0B488A002F8CC4 /* BPLocationDay.swift in Sources */,
 				DE4D940B1DDE300200B5050A /* AppDelegate.swift in Sources */,
 				DE4D94381DDE3CB000B5050A /* ViewController.swift in Sources */,
 				DE4D942E1DDE360000B5050A /* BPLocationCurrent.swift in Sources */,
@@ -296,6 +299,7 @@
 				DE4D94341DDE364700B5050A /* BPLocationHour.swift in Sources */,
 				DE4D942C1DDE35EB00B5050A /* BPForecast.swift in Sources */,
 				DE4D94261DDE329900B5050A /* BPConstants.swift in Sources */,
+				DE4894581E0B48C6002F8CC4 /* BPLocationDaily.swift in Sources */,
 				DE4D94301DDE360B00B5050A /* BPLocationHourly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

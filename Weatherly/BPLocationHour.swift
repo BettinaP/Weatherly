@@ -11,15 +11,15 @@ import UIKit
 class BPLocationHour: NSObject {
     
     let timeStamp: Date
-    let temperature: CGFloat
+    let temperature: Int
     let iconName: String
     
-    init?(json: NSDictionary) {
+    init?(jsonHour: NSDictionary) {
         
         guard
-            let time = json["time"] as? Double,
-            let iconName = json["icon"] as? String,
-            let temperature = json["temperature"] as? CGFloat
+            let time = jsonHour["time"] as? Double,
+            let iconName = jsonHour["icon"] as? String,
+            let temperature = jsonHour["temperature"] as? Int
             else {
                 return nil
         }
@@ -29,3 +29,4 @@ class BPLocationHour: NSObject {
         self.temperature = temperature
     }
 }
+//hourly "precipType" value for umbrella reminder check and "summary" for alert message

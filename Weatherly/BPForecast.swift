@@ -16,9 +16,9 @@ class BPForecast {
     
     init?(json: NSDictionary) {
         
-        current = BPLocationCurrent()
-        hourly = BPLocationHourly(json: json)
-        daily = BPLocationDaily()
+        current = BPLocationCurrent(json: json)
+        hourly = BPLocationHourly(jsonHourly: json)
+        daily = BPLocationDaily(jsonDaily: json)
         
         if current == nil || hourly == nil || daily == nil {
             return nil
