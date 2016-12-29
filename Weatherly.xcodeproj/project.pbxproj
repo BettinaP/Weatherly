@@ -23,6 +23,8 @@
 		DE4D94341DDE364700B5050A /* BPLocationHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D94331DDE364700B5050A /* BPLocationHour.swift */; };
 		DE4D94361DDE3C6400B5050A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D94351DDE3C6400B5050A /* Storyboard.storyboard */; };
 		DE4D94381DDE3CB000B5050A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D94371DDE3CB000B5050A /* ViewController.swift */; };
+		DEF96A6D1E15D0CC000D93FB /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF96A6B1E15D0CB000D93FB /* ForecastViewController.swift */; };
+		DEF96A6E1E15D0CC000D93FB /* ForecastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF96A6C1E15D0CB000D93FB /* ForecastViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		DE4D94331DDE364700B5050A /* BPLocationHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLocationHour.swift; sourceTree = "<group>"; };
 		DE4D94351DDE3C6400B5050A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		DE4D94371DDE3CB000B5050A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEF96A6B1E15D0CB000D93FB /* ForecastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		DEF96A6C1E15D0CB000D93FB /* ForecastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForecastViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		DE4D94201DDE302800B5050A /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEF96A6B1E15D0CB000D93FB /* ForecastViewController.swift */,
+				DEF96A6C1E15D0CB000D93FB /* ForecastViewController.xib */,
 				DE4D94141DDE300200B5050A /* Assets.xcassets */,
 				DE4D94191DDE300200B5050A /* Info.plist */,
 				DE4D94111DDE300200B5050A /* Weatherly.xcdatamodeld */,
@@ -229,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4D94181DDE300200B5050A /* LaunchScreen.storyboard in Resources */,
+				DEF96A6E1E15D0CC000D93FB /* ForecastViewController.xib in Resources */,
 				DE4D94151DDE300200B5050A /* Assets.xcassets in Resources */,
 				DE4D94361DDE3C6400B5050A /* Storyboard.storyboard in Resources */,
 			);
@@ -300,6 +307,7 @@
 				DE4D942C1DDE35EB00B5050A /* BPForecast.swift in Sources */,
 				DE4D94261DDE329900B5050A /* BPConstants.swift in Sources */,
 				DE4894581E0B48C6002F8CC4 /* BPLocationDaily.swift in Sources */,
+				DEF96A6D1E15D0CC000D93FB /* ForecastViewController.swift in Sources */,
 				DE4D94301DDE360B00B5050A /* BPLocationHourly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
