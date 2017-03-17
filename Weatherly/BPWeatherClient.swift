@@ -25,8 +25,8 @@ class BPWeatherClient {
                 
             case .success:
                 
-                if let json = response.result.value as? NSDictionary, let location = BPForecast(json: json) {
-                    completion(location)
+                if let json = response.result.value as? NSDictionary, let forecast = BPForecast(json: json) {
+                    completion(forecast)
                 } else {
                     completion(nil)
                 }
